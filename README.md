@@ -23,7 +23,7 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 
 **Tree-based & Ensemble Methods**
 - [x] Decision Tree Learning (ID3 Algorithm using Entropy and Information Gain)
-- [ ] Random Forest (Bagging / Bootstrap Aggregation)
+- [x] Random Forest (Bagging / Bootstrap Aggregation)
 - [ ] AdaBoost (Iterative instance weight updates)
 - [ ] Gradient Boosting (Iterative residual error minimization)
 
