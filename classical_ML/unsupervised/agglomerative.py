@@ -35,7 +35,7 @@ class AgglomerativeClustering:
             # Find the two closest clusters to merge
             for i in range(len(clusters)):
                 for j in range(i + 1, len(clusters)):
-                    dist = self._calculate_cluster_distance(X, clusters[i], self.n_clusters[j])
+                    dist = self._calculate_cluster_distance(X, clusters[i], clusters[j])
 
                     if dist < min_dist:
                         min_dist = dist
@@ -43,7 +43,7 @@ class AgglomerativeClustering:
                         merge_idx2 = j
 
             # 3. Merge cluster j into cluster i
-            clusters[merge_idx1].append(self.n_clusters[merge_idx2])
+            clusters[merge_idx1].extend(clusters[merge_idx2])
 
             # 4. Remove cluster j from out list of active clusters
             clusters.pop(merge_idx2)
