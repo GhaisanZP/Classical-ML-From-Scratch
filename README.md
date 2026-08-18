@@ -15,11 +15,11 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 ### Supervised Learning
 **Linear Models**
 - [x] Linear Regression (Least Squared Estimation / OLS & Gradient Descent)
-- [ ] Logistic Regression (Maximum Likelihood Estimator via Stochastic Gradient Ascent)
+- [x] Logistic Regression (Maximum Likelihood Estimator via Stochastic Gradient Ascent)
 
 **Instance-based & Probabilistic**
-- [ ] K-Nearest Neighbors (k-NN with Euclidean, Manhattan, and Minkowski distances)
-- [ ] Naive Bayes / Bayesian Network
+- [x] K-Nearest Neighbors (k-NN with Euclidean, Manhattan, and Minkowski distances)
+- [x] Naive Bayes / Bayesian Network
 
 **Tree-based & Ensemble Methods**
 - [ ] Decision Tree Learning (ID3 Algorithm using Entropy and Information Gain)
