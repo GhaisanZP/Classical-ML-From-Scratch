@@ -34,7 +34,7 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 ### Unsupervised Learning
 - [x] K-Means Clustering (Partitioning)
 - [x] DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
-- [ ] Agglomerative Hierarchical Clustering
+- [x] Agglomerative Hierarchical Clustering
 - [ ] Principal Component Analysis (Dimensionality Reduction)
 
 ## Usage & Scikit-Learn Comparison
