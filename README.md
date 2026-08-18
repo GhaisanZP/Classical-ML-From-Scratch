@@ -31,8 +31,11 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 - [x] Support Vector Machine (SVM)
 
 ### Unsupervised Learning
-- [ ] K-Means Clustering
-- [ ] Principal Component Analysis (PCA)
+### Unsupervised Learning
+- [x] K-Means Clustering (Partitioning)
+- [ ] DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
+- [ ] Agglomerative Hierarchical Clustering
+- [ ] Principal Component Analysis (Dimensionality Reduction)
 
 ## Usage & Scikit-Learn Comparison
 
