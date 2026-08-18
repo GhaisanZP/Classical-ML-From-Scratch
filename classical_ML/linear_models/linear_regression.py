@@ -29,7 +29,8 @@ class LinearRegression:
         if self.method == 'lse':
             # Add bias term (column of 1s) to X
             # X_b matrix dimension: (n_samples, n_features + 1)
-            X_b = np.c[np.ones((n_samples, 1)), X]
+            ones_column = np.ones((n_samples, 1))
+            X_b = np.hstack((ones_column, X))
 
             # LSE Formula: \theta = (X^T * X)^{-1} * X^T * y
             theta = np.linalg.inv(X_b.T.dot(X_b)).dot(X_b.T).dot(y)

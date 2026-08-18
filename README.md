@@ -14,7 +14,7 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 
 ### Supervised Learning
 **Linear Models**
-- [ ] Linear Regression (Least Squared Estimation / OLS & Gradient Descent)
+- [x] Linear Regression (Least Squared Estimation / OLS & Gradient Descent)
 - [ ] Logistic Regression (Maximum Likelihood Estimator via Stochastic Gradient Ascent)
 
 **Instance-based & Probabilistic**
