@@ -22,7 +22,7 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 - [x] Naive Bayes / Bayesian Network
 
 **Tree-based & Ensemble Methods**
-- [ ] Decision Tree Learning (ID3 Algorithm using Entropy and Information Gain)
+- [x] Decision Tree Learning (ID3 Algorithm using Entropy and Information Gain)
 - [ ] Random Forest (Bagging / Bootstrap Aggregation)
 - [ ] AdaBoost (Iterative instance weight updates)
 - [ ] Gradient Boosting (Iterative residual error minimization)

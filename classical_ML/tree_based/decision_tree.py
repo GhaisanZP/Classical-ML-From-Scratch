@@ -45,7 +45,7 @@ class DecisionTree:
         best_feature, best_thresh = self._best_split(X, y, feat_idxs)
 
         # Grow the children that result from the split
-        left_idxs, right_idxs = self.split(X[:, best_feature], best_thresh)
+        left_idxs, right_idxs = self._split(X[:, best_feature], best_thresh)
         left = self._grow_tree(X[left_idxs, :], y[left_idxs], depth + 1)
         right = self._grow_tree(X[right_idxs, :], y[right_idxs], depth + 1)
 
@@ -79,7 +79,7 @@ class DecisionTree:
         parent_entropy = self._entropy(y)
 
         # Create children
-        left_idxs, right_idxs = self.split(X_column, threshold)
+        left_idxs, right_idxs = self._split(X_column, threshold)
         if len(left_idxs) == 0 or len(right_idxs) == 0:
             return 0
 
