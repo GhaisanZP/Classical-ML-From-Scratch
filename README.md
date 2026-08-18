@@ -25,7 +25,7 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 - [x] Decision Tree Learning (ID3 Algorithm using Entropy and Information Gain)
 - [x] Random Forest (Bagging / Bootstrap Aggregation)
 - [x] AdaBoost (Iterative instance weight updates)
-- [ ] Gradient Boosting (Iterative residual error minimization)
+- [x] Gradient Boosting (Iterative residual error minimization)
 
 **Margin-based**
 - [x] Support Vector Machine (SVM)

@@ -90,12 +90,12 @@ class DecisionTreeRegressor:
         return self._traverse_tree(x, node.right)
 
 class GradientBoosting:
-    def __init__(self, n_estimator=10, learning_rate=0.1, max_depth=3):
+    def __init__(self, n_estimators=10, learning_rate=0.1, max_depth=3):
         """
         Gradient Boosting Classifier.
         Iteratively trains Regression Trees on the pseudo-residuals of the previous models.
         """
-        self.n_estimator = n_estimator
+        self.n_estimators = n_estimators
         self.learning_rate = learning_rate
         self.max_depth = max_depth
         self.trees = []
@@ -114,7 +114,7 @@ class GradientBoosting:
         # Fm holds the cumulative predictions (in log-odds space)
         Fm = np.full(len(y), self.F0)
 
-        for _ in range(self.n_estimator):
+        for _ in range(self.n_estimators):
             # 1. Calculate current predicted probabilities
             preds = self._sigmoid(Fm)
 
