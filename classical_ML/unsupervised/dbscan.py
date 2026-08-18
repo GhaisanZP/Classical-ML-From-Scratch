@@ -16,7 +16,7 @@ class DBSCAN:
         self.min_samples = min_samples
         self.labels_ = None
 
-    def fit_predicts(self, X):
+    def fit_predict(self, X):
         """
         Perform DBSCAN clustering from features and return cluster labels.
         Labels are 0, 1, 2, ... for valid clusters. -1 represents NOISE.
