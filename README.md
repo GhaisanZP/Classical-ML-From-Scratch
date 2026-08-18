@@ -28,7 +28,7 @@ This repository serves as a personal knowledge base and a proof-of-work portfoli
 - [ ] Gradient Boosting (Iterative residual error minimization)
 
 **Margin-based**
-- [ ] Support Vector Machine (SVM)
+- [x] Support Vector Machine (SVM)
 
 ### Unsupervised Learning
 - [ ] K-Means Clustering
